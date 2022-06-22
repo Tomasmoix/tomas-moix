@@ -1,0 +1,97 @@
+body{
+    background-image: url(marmol.jpg);
+    font-family: 'Roboto' , sans-serif;
+    padding: 1px;
+    /* margin: 1px; */
+    justify-content: center;
+    
+}
+
+
+@media screen and (max-width:769px){
+    .contenedor { 
+        grid-template-areas: "header header header"
+        "contenido contenido contenido"
+        "formulario formulario formulario"
+        ;
+    }
+    
+
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    }
+
+
+
+  
+    /* h1{
+        color: rgb(202, 187, 104);
+        font-size: 5em;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+    } */
+    
+    /* h2{
+        color: rgb(202, 187, 104);
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Josefin Slab', serif;} */
+    
+    ul{
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+    }
+    p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    }
+  
+    a{
+        color: rgb(85, 60, 14);
+        font-family: 'Roboto', sans-serif;
+        /* font-size: 2em; */
+        font-weight: 700;
+        flex: inline;
+        padding: 10px;
+
+       
+    }
+    ul li{
+        list-style-type: none;
+        font-family: 'Roboto', sans-serif;   
+        display: inline;
+        /* margin: 20px; */
+    }
+    
+    h3{
+        color: rgb(145, 97, 190);
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+    }
+    tbody tr{
+        color: azure;
+        font-size: 1em;
+        font-weight: 700;
+        font-family: 'Josefin Slab', serif;}
+    h4{
+        color: rgb(145, 97, 190);
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+    }
+    
+    
+    
+    
+   

@@ -1,0 +1,49 @@
+body {
+        background-image: url(marmol.jpg)
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: rgb(85, 60, 14);
+        font-family: 'Roboto', sans-serif;
+        /* font-size: 2em; */
+        font-weight: 700;
+        padding: 10px;
+
+    }
+    ul li{
+        list-style-type: none;
+        font-family: 'Roboto', sans-serif;   
+        display: inline;}
+
+
+        .movimientos{
+            display: flex;
+            flex-direction: row;
+            display: inline;
+            
+        }
+        .tiendas{
+            display: grid;
+            padding: 1px;
+            justify-content: left;
+        }
+
+        .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+        .contenedor {overflow:hidden;}
+
+    
+    
+        @media screen and (max-width:769px){
+            .contenedor { 
+                grid-template-areas: "header header header"
+                "contenido contenido contenido"
+                "movimientos movimientos movimientos"
+                
+            }
+        }
+ 
+    
